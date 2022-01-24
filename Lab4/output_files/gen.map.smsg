@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at sdmodb.v(15): always construct contains both blocking and non-blocking assignments File: D:/intelFPGA/18.1/Lab4/Lab4/sdmodb.v Line: 15
+Warning (10268): Verilog HDL information at phacc.v(14): always construct contains both blocking and non-blocking assignments File: D:/intelFPGA/18.1/Lab4/Lab4/phacc.v Line: 14
