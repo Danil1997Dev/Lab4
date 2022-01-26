@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dD:/intelFPGA/18.1/Lab4/Lab4
 vcycloneive_and1
-Z1 !s110 1643034202
+Z1 !s110 1643194755
 !i10b 1
 !s100 oT]7FkABD[F088N@X^z8]0
 IkbWn:=<?b]^8e8O]LIiK@1
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1643034201.000000
+Z7 !s108 1643194755.000000
 Z8 !s107 K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/src/cycloneive_atoms.v|
 Z9 !s90 -reportprogress|300|K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/src/cycloneive_atoms.v|
 !i113 1
@@ -669,7 +669,7 @@ R9
 !i113 1
 R10
 UCYCLONEIVE_PRIM_DFFE
-Z11 !s110 1643034201
+R1
 !i10b 1
 !s100 0Dbz0GX<cZb:1M7:i?8bK3
 ICJRgja5JBaJfeZi4>5i`U2
@@ -932,7 +932,7 @@ R9
 !i113 1
 R10
 vDE0_CV_golden_top
-R11
+!s110 1643039450
 !i10b 1
 !s100 Z[Z_W_@W_;IPDULmUV3eC1
 IMVjF]]c?0LUOBdNPYkH;R0
@@ -946,20 +946,20 @@ R6
 r1
 !s85 0
 31
-R7
-Z12 !s107 ../Lab4/sine_rom_syn.v|../Lab4/sine_rom_bb.v|../Lab4/sine_rom.v|../Lab4/sdmodb.v|../Lab4/phacc.v|../Lab4/gen.v|../Lab4/DE0_CV_golden_top.v|
-Z13 !s90 -reportprogress|300|../Lab4/DE0_CV_golden_top.v|../Lab4/gen.v|../Lab4/phacc.v|../Lab4/sdmodb.v|../Lab4/sine_rom.v|../Lab4/sine_rom_bb.v|../Lab4/sine_rom_syn.v|
+!s108 1643039450.000000
+!s107 ../Lab4/sine_rom_syn.v|../Lab4/sine_rom_bb.v|../Lab4/sine_rom.v|../Lab4/sdmodb.v|../Lab4/phacc.v|../Lab4/gen.v|../Lab4/DE0_CV_golden_top.v|
+!s90 -reportprogress|300|../Lab4/DE0_CV_golden_top.v|../Lab4/gen.v|../Lab4/phacc.v|../Lab4/sdmodb.v|../Lab4/sine_rom.v|../Lab4/sine_rom_bb.v|../Lab4/sine_rom_syn.v|
 !i113 1
 R10
 n@d@e0_@c@v_golden_top
 vgen
-R11
+Z11 !s110 1643194754
 !i10b 1
-!s100 >cDQP<Y=:LmUbk1mj7V_m2
-IYJ;2fnIhl5F=>YdY<`:?V1
+!s100 fjT;G]3nPHjnJBg:;gOM=0
+InQ4NeYOdUVPGU4<Kj9Tc50
 R2
 R0
-w1643021768
+w1643190400
 8../Lab4/gen.v
 F../Lab4/gen.v
 L0 3
@@ -967,22 +967,22 @@ R6
 r1
 !s85 0
 31
-R7
-R12
-R13
+Z12 !s108 1643194754.000000
+!s107 ../Lab4/gen.v|
+!s90 -reportprogress|300|../Lab4/gen.v|
 !i113 1
 R10
 vgen_tb
-DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-!s110 1643034203
+Z13 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1643194756
 !i10b 1
-!s100 QSZ`j[1GYYYBT]1TDhfV]2
-IJlH2o9WfKF]fzSeWDZ<850
+!s100 =>YP>a?6>``0cRH0bh1R<3
+I6SJM4eJC27I99mWP8H]nJ3
 R2
 !s105 gen_tb_sv_unit
 S1
 R0
-w1607760291
+w1643191025
 8../Lab4/gen_tb.sv
 F../Lab4/gen_tb.sv
 L0 3
@@ -990,7 +990,7 @@ R6
 r1
 !s85 0
 31
-!s108 1643034203.000000
+!s108 1643194756.000000
 !s107 ../Lab4/gen_tb.sv|
 !s90 -reportprogress|300|../Lab4/gen_tb.sv|
 !i113 1
@@ -998,11 +998,11 @@ R10
 vphacc
 R11
 !i10b 1
-!s100 IbQ_XFBXihmk@m707LFaW3
-IRE:RH3Sm71YiT9`h7eAUb3
+!s100 e1Q1f9LKcVC3HjEE=Mfc41
+IA>kcUmU>gWJE3l`L<m`>z2
 R2
 R0
-w1643033080
+w1643190413
 8../Lab4/phacc.v
 F../Lab4/phacc.v
 L0 3
@@ -1010,19 +1010,19 @@ R6
 r1
 !s85 0
 31
-R7
 R12
-R13
+!s107 ../Lab4/phacc.v|
+!s90 -reportprogress|300|../Lab4/phacc.v|
 !i113 1
 R10
 vsdmodb
-R11
+Z14 !s110 1643194811
 !i10b 1
-!s100 MZnRU]gcA`nbY9`4oLR0a2
-IRki@9RdgfzFeW:T2lhKI53
+!s100 _H]=FL^Rb7HF[<L=S?9Li0
+IDQgS]CZ`3Dj0FcPMWHgDP1
 R2
 R0
-w1643034194
+w1643194748
 8../Lab4/sdmodb.v
 F../Lab4/sdmodb.v
 L0 3
@@ -1030,9 +1030,32 @@ R6
 r1
 !s85 0
 31
-R7
-R12
+Z15 !s108 1643194811.000000
+!s107 ../Lab4/sdmodb.v|
+!s90 -reportprogress|300|../Lab4/sdmodb.v|
+!i113 1
+R10
+vsdmodb_tb
 R13
+R14
+!i10b 1
+!s100 ]ci<BE;U<^nO7C9mQ01l@2
+Il`i2iiJ@I^Cgc^AH5524P0
+R2
+!s105 sdmodb_tb_sv_unit
+S1
+R0
+w1643188924
+8../Lab4/sdmodb_tb.sv
+F../Lab4/sdmodb_tb.sv
+L0 3
+R6
+r1
+!s85 0
+31
+R15
+!s107 ../Lab4/sdmodb_tb.sv|
+!s90 -reportprogress|300|../Lab4/sdmodb_tb.sv|
 !i113 1
 R10
 vsine_rom
@@ -1042,17 +1065,17 @@ R11
 I_GU13Nf`H2@;2YCA?PLMA3
 R2
 R0
-Z14 w1643020524
-Z15 8../Lab4/sine_rom_syn.v
-Z16 F../Lab4/sine_rom_syn.v
+Z16 w1643020524
+Z17 8../Lab4/sine_rom_syn.v
+Z18 F../Lab4/sine_rom_syn.v
 L0 555
 R6
 r1
 !s85 0
 31
-R7
 R12
-R13
+Z19 !s107 ../Lab4/sine_rom_syn.v|
+Z20 !s90 -reportprogress|300|../Lab4/sine_rom_syn.v|
 !i113 1
 R10
 vsine_rom_altsyncram
@@ -1062,16 +1085,16 @@ R11
 IcIA25IGX=9HMBfSlfzR=a1
 R2
 R0
-R14
-R15
 R16
+R17
+R18
 L0 47
 R6
 r1
 !s85 0
 31
-R7
 R12
-R13
+R19
+R20
 !i113 1
 R10

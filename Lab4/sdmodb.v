@@ -1,4 +1,4 @@
-`timescale 1 ns/1 ns
+ 
 
 module sdmodb 
 (
@@ -7,9 +7,9 @@ module sdmodb
 	 output daco //однобитная выходная последовательность.
 ); 
   
-  reg signed [7:0]daco_reg = 0;
+  reg signed [7:0] daco_reg = 0;
   reg signed [7:0] val_delay = 0;
-  reg signed [7:0] val_int = 0;
+  reg signed [7:0] val_def = 0;
   reg signed [7:0] val_delay_compar = 0;
 
   always @(posedge clk or negedge clr_n)
@@ -21,8 +21,8 @@ module sdmodb
         end
       else
         begin
-			val_int = val - daco_reg;
-			val_delay <= val_int + val_delay;
+			val_def = val - daco_reg;
+			val_delay <= val_def + val_delay;
 			val_delay_compar <= val_delay;
 			if (val_delay >= val_delay_compar) begin
 			  daco_reg =  127;  end

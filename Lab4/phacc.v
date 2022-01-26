@@ -1,4 +1,4 @@
-`timescale 1 ns/1 ns
+ 
 
 module phacc#(
 	 parameter WIDTH = 14
@@ -21,7 +21,7 @@ module phacc#(
       else
         begin
 			adder <= adder + phinc;
-			phase <= adder[WIDTH-1:WIDTH-1-7];
+			phase <= adder[WIDTH-1:WIDTH-1-7];//13..6 (8)
         end
     end
 endmodule

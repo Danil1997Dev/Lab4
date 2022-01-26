@@ -5,9 +5,13 @@ set mem_file memory.mem
 vlib work
 
 #############Compile sources#############
-vlog "../$pass/*.v"  
+vlog "../$pass/gen.v" 
+vlog "../$pass/phacc.v" 
+vlog "../$pass/sdmodb.v" 
+vlog "../$pass/sine_rom.v"
+vlog "../$pass/sine_rom_syn.v"
 vlog "K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/src/cycloneive_atoms.v" 
-vlog "../$pass/*.sv"  
+vlog "../$pass/$name.sv"  
 vsim -voptargs=+acc work.$name
 
 # Set the window types

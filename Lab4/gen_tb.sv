@@ -13,6 +13,7 @@ module gen_tb();
 	logic [31:0] wr_data;
 	logic [31:0] phinc_val;
 	logic fout;
+	logic [7:0]  n; 
 		
 	// Instantiate UUT and connect used ports
 	gen dut(.clk(clk), .clr_n(clr_n), .wr_n(wr_n), .wr_data(wr_data), .fout(fout));
@@ -38,7 +39,42 @@ module gen_tb();
 		@(posedge clr_n);
 		// Check if phase increment for required accumulator width 
 		// and oversamlpling ratio will fit in 8 bits
-		phinc_val=(2**(PHACC_WIDTH-8))/OVERSAMPLING;
+		n = 1;
+		phinc_val=(2**(PHACC_WIDTH-8))*n/(OVERSAMPLING);
+		if ((phinc_val <= 255) && (phinc_val != 0))
+		begin
+			// Write phase increment several clock cycles after reset
+			#(CLK_PRD*3) write_transaction(phinc_val);
+			// Wait for one sine period (for 14-bit phase accumulator case)
+			#(CLK_PRD*SAMPLES_PRD*OVERSAMPLING) ;
+		end
+		else
+		begin
+			//Output simulation error
+			$display("Error: value of phase increment is out of range! Stopped simulation.");
+			//Stop simulation (small delay needed for $display to work)
+			#1 $stop;
+		end
+
+		n = 2;
+		phinc_val=(2**(PHACC_WIDTH-8))*n/(OVERSAMPLING);
+		if ((phinc_val <= 255) && (phinc_val != 0))
+		begin
+			// Write phase increment several clock cycles after reset
+			#(CLK_PRD*3) write_transaction(phinc_val);
+			// Wait for one sine period (for 14-bit phase accumulator case)
+			#(CLK_PRD*SAMPLES_PRD*OVERSAMPLING) ;
+		end
+		else
+		begin
+			//Output simulation error
+			$display("Error: value of phase increment is out of range! Stopped simulation.");
+			//Stop simulation (small delay needed for $display to work)
+			#1 $stop;
+		end
+
+		n = 4;
+		phinc_val=(2**(PHACC_WIDTH-8))*n/(OVERSAMPLING);
 		if ((phinc_val <= 255) && (phinc_val != 0))
 		begin
 			// Write phase increment several clock cycles after reset
