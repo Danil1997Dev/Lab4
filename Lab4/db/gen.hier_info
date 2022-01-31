@@ -41,10 +41,10 @@ wr_n => phinc[4].OUTPUTSELECT
 wr_n => phinc[5].OUTPUTSELECT
 wr_n => phinc[6].OUTPUTSELECT
 wr_n => phinc[7].OUTPUTSELECT
-fout << sdmodb:sdmodb_inst.daco
+fout <= sdmodb:sdm.daco
 
 
-|gen|phacc:phacc_inst
+|gen|phacc:pa
 clk => phase[0]~reg0.CLK
 clk => phase[1]~reg0.CLK
 clk => phase[2]~reg0.CLK
@@ -107,7 +107,7 @@ phase[6] <= phase[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 phase[7] <= phase[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|gen|sine_rom:sine_rom_inst
+|gen|sine_rom:sr
 address[0] => address[0].IN1
 address[1] => address[1].IN1
 address[2] => address[2].IN1
@@ -127,7 +127,7 @@ q[6] <= altsyncram:altsyncram_component.q_a
 q[7] <= altsyncram:altsyncram_component.q_a
 
 
-|gen|sine_rom:sine_rom_inst|altsyncram:altsyncram_component
+|gen|sine_rom:sr|altsyncram:altsyncram_component
 wren_a => ~NO_FANOUT~
 rden_a => ~NO_FANOUT~
 wren_b => ~NO_FANOUT~
@@ -176,7 +176,7 @@ eccstatus[1] <= <GND>
 eccstatus[2] <= <GND>
 
 
-|gen|sine_rom:sine_rom_inst|altsyncram:altsyncram_component|altsyncram_c691:auto_generated
+|gen|sine_rom:sr|altsyncram:altsyncram_component|altsyncram_c691:auto_generated
 address_a[0] => ram_block1a0.PORTAADDR
 address_a[0] => ram_block1a1.PORTAADDR
 address_a[0] => ram_block1a2.PORTAADDR
@@ -259,7 +259,7 @@ q_a[6] <= ram_block1a6.PORTADATAOUT
 q_a[7] <= ram_block1a7.PORTADATAOUT
 
 
-|gen|sdmodb:sdmodb_inst
+|gen|sdmodb:sdm
 clk => val_delay_compar[0].CLK
 clk => val_delay_compar[1].CLK
 clk => val_delay_compar[2].CLK

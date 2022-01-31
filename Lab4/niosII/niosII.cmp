@@ -1,0 +1,8 @@
+	component niosII is
+		port (
+			clk_clk               : in  std_logic := 'X'; -- clk
+			generator_export_fout : out std_logic;        -- fout
+			reset_reset_n         : in  std_logic := 'X'  -- reset_n
+		);
+	end component niosII;
+
