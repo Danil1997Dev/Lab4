@@ -9,7 +9,7 @@ z2
 cModel Technology
 Z0 dD:/intelFPGA/18.1/Lab4/Lab4
 vcycloneive_and1
-Z1 !s110 1643470991
+Z1 !s110 1643635919
 !i10b 1
 !s100 oT]7FkABD[F088N@X^z8]0
 IkbWn:=<?b]^8e8O]LIiK@1
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1643470990.000000
+Z7 !s108 1643635919.000000
 Z8 !s107 K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/src/cycloneive_atoms.v|
 Z9 !s90 -reportprogress|300|K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/src/cycloneive_atoms.v|
 !i113 1
@@ -669,7 +669,7 @@ R9
 !i113 1
 R10
 UCYCLONEIVE_PRIM_DFFE
-Z11 !s110 1643470990
+R1
 !i10b 1
 !s100 0Dbz0GX<cZb:1M7:i?8bK3
 ICJRgja5JBaJfeZi4>5i`U2
@@ -690,7 +690,7 @@ R9
 R10
 n@c@y@c@l@o@n@e@i@v@e_@p@r@i@m_@d@f@f@e
 UCYCLONEIVE_PRIM_DFFEAS
-R11
+R1
 !i10b 1
 !s100 FM`<2U9]cJB2nXlXnNNPA1
 IBi?FCIZl7ECZVg9aATP333
@@ -953,13 +953,13 @@ r1
 R10
 n@d@e0_@c@v_golden_top
 vgen
-!s110 1643470988
+!s110 1643635917
 !i10b 1
-!s100 fjT;G]3nPHjnJBg:;gOM=0
-InQ4NeYOdUVPGU4<Kj9Tc50
+!s100 J4NY>MozBLA:Oe31:N1z=2
+IO:3=?e0oSOWIEY[EKe5Dl1
 R2
 R0
-w1643470623
+w1643635910
 8../Lab4/gen.v
 F../Lab4/gen.v
 L0 3
@@ -967,14 +967,14 @@ R6
 r1
 !s85 0
 31
-Z12 !s108 1643470988.000000
+Z11 !s108 1643635917.000000
 !s107 ../Lab4/gen.v|
 !s90 -reportprogress|300|../Lab4/gen.v|
 !i113 1
 R10
 vgen_tb
-Z13 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-!s110 1643470993
+Z12 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1643635920
 !i10b 1
 !s100 QSZ`j[1GYYYBT]1TDhfV]2
 IJlH2o9WfKF]fzSeWDZ<850
@@ -982,7 +982,7 @@ R2
 !s105 gen_tb_sv_unit
 S1
 R0
-w1607760291
+w1643635896
 8../Lab4/gen_tb.sv
 F../Lab4/gen_tb.sv
 L0 3
@@ -990,19 +990,19 @@ R6
 r1
 !s85 0
 31
-!s108 1643470993.000000
+!s108 1643635920.000000
 !s107 ../Lab4/gen_tb.sv|
 !s90 -reportprogress|300|../Lab4/gen_tb.sv|
 !i113 1
 R10
 vphacc
-Z14 !s110 1643470989
+Z13 !s110 1643635918
 !i10b 1
-!s100 e1Q1f9LKcVC3HjEE=Mfc41
-IA>kcUmU>gWJE3l`L<m`>z2
+!s100 a8BeckGW5oO^Y6I;A]MHQ2
+I>Ykl@FDjLYDiM_QS5jf[50
 R2
 R0
-w1643190413
+w1643635113
 8../Lab4/phacc.v
 F../Lab4/phacc.v
 L0 3
@@ -1010,19 +1010,19 @@ R6
 r1
 !s85 0
 31
-R12
+R11
 !s107 ../Lab4/phacc.v|
 !s90 -reportprogress|300|../Lab4/phacc.v|
 !i113 1
 R10
 vsdmodb
-R14
+R13
 !i10b 1
-!s100 _H]=FL^Rb7HF[<L=S?9Li0
-IDQgS]CZ`3Dj0FcPMWHgDP1
+!s100 7FF:ml]_MFI1=e0MKW6N13
+IT5iULRN9Ma:NQb`FaRX]Y0
 R2
 R0
-w1643194748
+w1643608045
 8../Lab4/sdmodb.v
 F../Lab4/sdmodb.v
 L0 3
@@ -1030,13 +1030,13 @@ R6
 r1
 !s85 0
 31
-!s108 1643470989.000000
+Z14 !s108 1643635918.000000
 !s107 ../Lab4/sdmodb.v|
 !s90 -reportprogress|300|../Lab4/sdmodb.v|
 !i113 1
 R10
 vsdmodb_tb
-R13
+R12
 !s110 1643194811
 !i10b 1
 !s100 ]ci<BE;U<^nO7C9mQ01l@2
@@ -1059,7 +1059,7 @@ r1
 !i113 1
 R10
 vsine_rom
-R11
+R13
 !i10b 1
 !s100 0ViglRFZa<ZzO=0dn:0:P0
 I_GU13Nf`H2@;2YCA?PLMA3
@@ -1073,13 +1073,13 @@ R6
 r1
 !s85 0
 31
-R7
+R14
 Z18 !s107 ../Lab4/sine_rom_syn.v|
 Z19 !s90 -reportprogress|300|../Lab4/sine_rom_syn.v|
 !i113 1
 R10
 vsine_rom_altsyncram
-R11
+R13
 !i10b 1
 !s100 =?6=232EifR4JZ7NN;3>I0
 IcIA25IGX=9HMBfSlfzR=a1
@@ -1093,7 +1093,7 @@ R6
 r1
 !s85 0
 31
-R7
+R14
 R18
 R19
 !i113 1

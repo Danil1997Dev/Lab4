@@ -5,53 +5,53 @@ do gen_tb.do
 # memory.mem
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:38:19 on Jan 29,2022
+# Start time: 21:25:11 on Jan 31,2022
 # vlog -reportprogress 300 ../Lab4/gen.v 
 # -- Compiling module gen
 # 
 # Top level modules:
 # 	gen
-# End time: 23:38:19 on Jan 29,2022, Elapsed time: 0:00:00
+# End time: 21:25:11 on Jan 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:38:19 on Jan 29,2022
+# Start time: 21:25:12 on Jan 31,2022
 # vlog -reportprogress 300 ../Lab4/phacc.v 
 # -- Compiling module phacc
 # 
 # Top level modules:
 # 	phacc
-# End time: 23:38:19 on Jan 29,2022, Elapsed time: 0:00:00
+# End time: 21:25:12 on Jan 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:38:19 on Jan 29,2022
+# Start time: 21:25:12 on Jan 31,2022
 # vlog -reportprogress 300 ../Lab4/sdmodb.v 
 # -- Compiling module sdmodb
 # 
 # Top level modules:
 # 	sdmodb
-# End time: 23:38:19 on Jan 29,2022, Elapsed time: 0:00:00
+# End time: 21:25:12 on Jan 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:38:19 on Jan 29,2022
+# Start time: 21:25:12 on Jan 31,2022
 # vlog -reportprogress 300 ../Lab4/sine_rom.v 
 # -- Compiling module sine_rom
 # 
 # Top level modules:
 # 	sine_rom
-# End time: 23:38:19 on Jan 29,2022, Elapsed time: 0:00:00
+# End time: 21:25:12 on Jan 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:38:19 on Jan 29,2022
+# Start time: 21:25:12 on Jan 31,2022
 # vlog -reportprogress 300 ../Lab4/sine_rom_syn.v 
 # -- Compiling module sine_rom_altsyncram
 # -- Compiling module sine_rom
 # 
 # Top level modules:
 # 	sine_rom
-# End time: 23:38:19 on Jan 29,2022, Elapsed time: 0:00:00
+# End time: 21:25:12 on Jan 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:38:20 on Jan 29,2022
+# Start time: 21:25:12 on Jan 31,2022
 # vlog -reportprogress 300 K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/src/cycloneive_atoms.v 
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFE
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
@@ -129,167 +129,19 @@ do gen_tb.do
 # 	cycloneive_jtag
 # 	cycloneive_crcblock
 # 	cycloneive_oscillator
-# End time: 23:38:21 on Jan 29,2022, Elapsed time: 0:00:01
+# End time: 21:25:13 on Jan 31,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:38:22 on Jan 29,2022
-# vlog -reportprogress 300 ../Lab4/gen_tb.sv 
-# -- Compiling module gen_tb
-# ** Error: (vlog-13069) ../Lab4/gen_tb.sv(57): near "else": syntax error, unexpected else.
-# ** Error: (vlog-13069) ../Lab4/gen_tb.sv(64): near "end": syntax error, unexpected end.
-# ** Error (suppressible): ../Lab4/gen_tb.sv(72): (vlog-2720) A generate begin/end pair has been found outside of generate construct.
-# ** Error: (vlog-13069) ../Lab4/gen_tb.sv(72): near "@": syntax error, unexpected '@'.
-# ** Error: ../Lab4/gen_tb.sv(74): (vlog-13205) Syntax error found in the scope following 'wr_n'. Is there a missing '::'?
-# End time: 23:38:22 on Jan 29,2022, Elapsed time: 0:00:00
-# Errors: 5, Warnings: 0
-# ** Error: K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-# Error in macro ./gen_tb.do line 14
-# K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
-#     while executing
-# "vlog "../$pass/$name.sv"  "
-do gen_tb.do
-# gen_tb
-# Lab4
-# memory.mem
-# ** Warning: (vlib-34) Library already exists at "work".
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:39:06 on Jan 29,2022
-# vlog -reportprogress 300 ../Lab4/gen.v 
-# -- Compiling module gen
-# 
-# Top level modules:
-# 	gen
-# End time: 23:39:06 on Jan 29,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:39:06 on Jan 29,2022
-# vlog -reportprogress 300 ../Lab4/phacc.v 
-# -- Compiling module phacc
-# 
-# Top level modules:
-# 	phacc
-# End time: 23:39:06 on Jan 29,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:39:06 on Jan 29,2022
-# vlog -reportprogress 300 ../Lab4/sdmodb.v 
-# -- Compiling module sdmodb
-# 
-# Top level modules:
-# 	sdmodb
-# End time: 23:39:06 on Jan 29,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:39:07 on Jan 29,2022
-# vlog -reportprogress 300 ../Lab4/sine_rom.v 
-# -- Compiling module sine_rom
-# 
-# Top level modules:
-# 	sine_rom
-# End time: 23:39:07 on Jan 29,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:39:07 on Jan 29,2022
-# vlog -reportprogress 300 ../Lab4/sine_rom_syn.v 
-# -- Compiling module sine_rom_altsyncram
-# -- Compiling module sine_rom
-# 
-# Top level modules:
-# 	sine_rom
-# End time: 23:39:07 on Jan 29,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:39:07 on Jan 29,2022
-# vlog -reportprogress 300 K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/src/cycloneive_atoms.v 
-# -- Compiling UDP CYCLONEIVE_PRIM_DFFE
-# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
-# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS_HIGH
-# -- Compiling module cycloneive_dffe
-# -- Compiling module cycloneive_mux21
-# -- Compiling module cycloneive_mux41
-# -- Compiling module cycloneive_and1
-# -- Compiling module cycloneive_and16
-# -- Compiling module cycloneive_bmux21
-# -- Compiling module cycloneive_b17mux21
-# -- Compiling module cycloneive_nmux21
-# -- Compiling module cycloneive_b5mux21
-# -- Compiling module cycloneive_latch
-# -- Compiling module cycloneive_routing_wire
-# -- Compiling module cycloneive_m_cntr
-# -- Compiling module cycloneive_n_cntr
-# -- Compiling module cycloneive_scale_cntr
-# -- Compiling module cycloneive_pll_reg
-# -- Compiling module cycloneive_pll
-# -- Compiling module cycloneive_lcell_comb
-# -- Compiling module cycloneive_ff
-# -- Compiling module cycloneive_ram_pulse_generator
-# -- Compiling module cycloneive_ram_register
-# -- Compiling module cycloneive_ram_block
-# -- Compiling module cycloneive_mac_data_reg
-# -- Compiling module cycloneive_mac_sign_reg
-# -- Compiling module cycloneive_mac_mult_internal
-# -- Compiling module cycloneive_mac_mult
-# -- Compiling module cycloneive_mac_out
-# -- Compiling module cycloneive_io_ibuf
-# -- Compiling module cycloneive_io_obuf
-# -- Compiling module cycloneive_ddio_out
-# -- Compiling module cycloneive_ddio_oe
-# -- Compiling module cycloneive_pseudo_diff_out
-# -- Compiling module cycloneive_io_pad
-# -- Compiling module cycloneive_asmiblock
-# -- Compiling module cycloneive_ena_reg
-# -- Compiling module cycloneive_clkctrl
-# -- Compiling module cycloneive_rublock
-# -- Compiling module cycloneive_apfcontroller
-# -- Compiling module cycloneive_termination_ctrl
-# -- Compiling module cycloneive_termination_rupdn
-# -- Compiling module cycloneive_termination
-# -- Compiling module cycloneive_jtag
-# -- Compiling module cycloneive_crcblock
-# -- Compiling module cycloneive_oscillator
-# 
-# Top level modules:
-# 	cycloneive_dffe
-# 	cycloneive_and1
-# 	cycloneive_and16
-# 	cycloneive_bmux21
-# 	cycloneive_b17mux21
-# 	cycloneive_nmux21
-# 	cycloneive_b5mux21
-# 	cycloneive_pll_reg
-# 	cycloneive_pll
-# 	cycloneive_lcell_comb
-# 	cycloneive_ff
-# 	cycloneive_ram_block
-# 	cycloneive_mac_mult
-# 	cycloneive_mac_out
-# 	cycloneive_io_ibuf
-# 	cycloneive_io_obuf
-# 	cycloneive_ddio_out
-# 	cycloneive_ddio_oe
-# 	cycloneive_pseudo_diff_out
-# 	cycloneive_io_pad
-# 	cycloneive_asmiblock
-# 	cycloneive_clkctrl
-# 	cycloneive_rublock
-# 	cycloneive_apfcontroller
-# 	cycloneive_termination
-# 	cycloneive_jtag
-# 	cycloneive_crcblock
-# 	cycloneive_oscillator
-# End time: 23:39:08 on Jan 29,2022, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:39:09 on Jan 29,2022
+# Start time: 21:25:15 on Jan 31,2022
 # vlog -reportprogress 300 ../Lab4/gen_tb.sv 
 # -- Compiling module gen_tb
 # 
 # Top level modules:
 # 	gen_tb
-# End time: 23:39:09 on Jan 29,2022, Elapsed time: 0:00:00
+# End time: 21:25:15 on Jan 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.gen_tb 
-# Start time: 23:39:10 on Jan 29,2022
+# Start time: 21:25:15 on Jan 31,2022
 # Loading sv_std.std
 # Loading work.gen_tb
 # Loading work.gen
@@ -300,64 +152,69 @@ do gen_tb.do
 # Loading work.cycloneive_ram_register
 # Loading work.cycloneive_ram_pulse_generator
 # Loading work.sdmodb
+# ** Warning: (vsim-3015) ../Lab4/gen.v(28): [PCDPC] - Port size (8) does not match connection size (1) for port 'q'. The port definition is at: ../Lab4/sine_rom_syn.v(558).
+#    Time: 0 ps  Iteration: 0  Instance: /gen_tb/dut/sr File: ../Lab4/sine_rom_syn.v
+# ** Warning: (vsim-3015) ../Lab4/gen.v(32): [PCDPC] - Port size (8) does not match connection size (1) for port 'val'. The port definition is at: ../Lab4/sdmodb.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /gen_tb/dut/sdm File: ../Lab4/sdmodb.v
 # .main_pane.wave.interior.cs.body.pw.wf
 # .main_pane.structure.interior.cs.body.struct
 # .main_pane.objects.interior.cs.body.tree
-# Break key hit
-# Break in Module sdmodb at ../Lab4/sdmodb.v line 24
+# ** Note: $stop    : ../Lab4/gen_tb.sv(47)
+#    Time: 20670 ns  Iteration: 0  Instance: /gen_tb
+# Break in Module gen_tb at ../Lab4/gen_tb.sv line 47
 do gen_tb.do
 # gen_tb
 # Lab4
 # memory.mem
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:43:08 on Jan 29,2022
+# Start time: 21:26:58 on Jan 31,2022
 # vlog -reportprogress 300 ../Lab4/gen.v 
 # -- Compiling module gen
 # 
 # Top level modules:
 # 	gen
-# End time: 23:43:08 on Jan 29,2022, Elapsed time: 0:00:00
+# End time: 21:26:58 on Jan 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:43:08 on Jan 29,2022
+# Start time: 21:26:59 on Jan 31,2022
 # vlog -reportprogress 300 ../Lab4/phacc.v 
 # -- Compiling module phacc
 # 
 # Top level modules:
 # 	phacc
-# End time: 23:43:09 on Jan 29,2022, Elapsed time: 0:00:01
+# End time: 21:26:59 on Jan 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:43:09 on Jan 29,2022
+# Start time: 21:26:59 on Jan 31,2022
 # vlog -reportprogress 300 ../Lab4/sdmodb.v 
 # -- Compiling module sdmodb
 # 
 # Top level modules:
 # 	sdmodb
-# End time: 23:43:09 on Jan 29,2022, Elapsed time: 0:00:00
+# End time: 21:26:59 on Jan 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:43:09 on Jan 29,2022
+# Start time: 21:26:59 on Jan 31,2022
 # vlog -reportprogress 300 ../Lab4/sine_rom.v 
 # -- Compiling module sine_rom
 # 
 # Top level modules:
 # 	sine_rom
-# End time: 23:43:09 on Jan 29,2022, Elapsed time: 0:00:00
+# End time: 21:26:59 on Jan 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:43:10 on Jan 29,2022
+# Start time: 21:26:59 on Jan 31,2022
 # vlog -reportprogress 300 ../Lab4/sine_rom_syn.v 
 # -- Compiling module sine_rom_altsyncram
 # -- Compiling module sine_rom
 # 
 # Top level modules:
 # 	sine_rom
-# End time: 23:43:10 on Jan 29,2022, Elapsed time: 0:00:00
+# End time: 21:27:00 on Jan 31,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:43:10 on Jan 29,2022
+# Start time: 21:27:00 on Jan 31,2022
 # vlog -reportprogress 300 K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/src/cycloneive_atoms.v 
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFE
 # -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
@@ -435,21 +292,21 @@ do gen_tb.do
 # 	cycloneive_jtag
 # 	cycloneive_crcblock
 # 	cycloneive_oscillator
-# End time: 23:43:11 on Jan 29,2022, Elapsed time: 0:00:01
+# End time: 21:27:01 on Jan 31,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 23:43:13 on Jan 29,2022
+# Start time: 21:27:02 on Jan 31,2022
 # vlog -reportprogress 300 ../Lab4/gen_tb.sv 
 # -- Compiling module gen_tb
 # 
 # Top level modules:
 # 	gen_tb
-# End time: 23:43:13 on Jan 29,2022, Elapsed time: 0:00:00
+# End time: 21:27:02 on Jan 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 23:43:18 on Jan 29,2022, Elapsed time: 0:04:08
-# Errors: 0, Warnings: 0
+# End time: 21:27:08 on Jan 31,2022, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 2
 # vsim -voptargs="+acc" work.gen_tb 
-# Start time: 23:43:18 on Jan 29,2022
+# Start time: 21:27:08 on Jan 31,2022
 # Loading sv_std.std
 # Loading work.gen_tb
 # Loading work.gen
@@ -466,5 +323,325 @@ do gen_tb.do
 # ** Note: $stop    : ../Lab4/gen_tb.sv(47)
 #    Time: 20670 ns  Iteration: 0  Instance: /gen_tb
 # Break in Module gen_tb at ../Lab4/gen_tb.sv line 47
-# End time: 23:55:19 on Jan 29,2022, Elapsed time: 0:12:01
+do gen_tb.do
+# gen_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:30:12 on Jan 31,2022
+# vlog -reportprogress 300 ../Lab4/gen.v 
+# -- Compiling module gen
+# 
+# Top level modules:
+# 	gen
+# End time: 21:30:12 on Jan 31,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:30:12 on Jan 31,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 21:30:12 on Jan 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:30:12 on Jan 31,2022
+# vlog -reportprogress 300 ../Lab4/sdmodb.v 
+# -- Compiling module sdmodb
+# 
+# Top level modules:
+# 	sdmodb
+# End time: 21:30:12 on Jan 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:30:12 on Jan 31,2022
+# vlog -reportprogress 300 ../Lab4/sine_rom.v 
+# -- Compiling module sine_rom
+# 
+# Top level modules:
+# 	sine_rom
+# End time: 21:30:12 on Jan 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:30:13 on Jan 31,2022
+# vlog -reportprogress 300 ../Lab4/sine_rom_syn.v 
+# -- Compiling module sine_rom_altsyncram
+# -- Compiling module sine_rom
+# 
+# Top level modules:
+# 	sine_rom
+# End time: 21:30:13 on Jan 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:30:14 on Jan 31,2022
+# vlog -reportprogress 300 K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/src/cycloneive_atoms.v 
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFE
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS_HIGH
+# -- Compiling module cycloneive_dffe
+# -- Compiling module cycloneive_mux21
+# -- Compiling module cycloneive_mux41
+# -- Compiling module cycloneive_and1
+# -- Compiling module cycloneive_and16
+# -- Compiling module cycloneive_bmux21
+# -- Compiling module cycloneive_b17mux21
+# -- Compiling module cycloneive_nmux21
+# -- Compiling module cycloneive_b5mux21
+# -- Compiling module cycloneive_latch
+# -- Compiling module cycloneive_routing_wire
+# -- Compiling module cycloneive_m_cntr
+# -- Compiling module cycloneive_n_cntr
+# -- Compiling module cycloneive_scale_cntr
+# -- Compiling module cycloneive_pll_reg
+# -- Compiling module cycloneive_pll
+# -- Compiling module cycloneive_lcell_comb
+# -- Compiling module cycloneive_ff
+# -- Compiling module cycloneive_ram_pulse_generator
+# -- Compiling module cycloneive_ram_register
+# -- Compiling module cycloneive_ram_block
+# -- Compiling module cycloneive_mac_data_reg
+# -- Compiling module cycloneive_mac_sign_reg
+# -- Compiling module cycloneive_mac_mult_internal
+# -- Compiling module cycloneive_mac_mult
+# -- Compiling module cycloneive_mac_out
+# -- Compiling module cycloneive_io_ibuf
+# -- Compiling module cycloneive_io_obuf
+# -- Compiling module cycloneive_ddio_out
+# -- Compiling module cycloneive_ddio_oe
+# -- Compiling module cycloneive_pseudo_diff_out
+# -- Compiling module cycloneive_io_pad
+# -- Compiling module cycloneive_asmiblock
+# -- Compiling module cycloneive_ena_reg
+# -- Compiling module cycloneive_clkctrl
+# -- Compiling module cycloneive_rublock
+# -- Compiling module cycloneive_apfcontroller
+# -- Compiling module cycloneive_termination_ctrl
+# -- Compiling module cycloneive_termination_rupdn
+# -- Compiling module cycloneive_termination
+# -- Compiling module cycloneive_jtag
+# -- Compiling module cycloneive_crcblock
+# -- Compiling module cycloneive_oscillator
+# 
+# Top level modules:
+# 	cycloneive_dffe
+# 	cycloneive_and1
+# 	cycloneive_and16
+# 	cycloneive_bmux21
+# 	cycloneive_b17mux21
+# 	cycloneive_nmux21
+# 	cycloneive_b5mux21
+# 	cycloneive_pll_reg
+# 	cycloneive_pll
+# 	cycloneive_lcell_comb
+# 	cycloneive_ff
+# 	cycloneive_ram_block
+# 	cycloneive_mac_mult
+# 	cycloneive_mac_out
+# 	cycloneive_io_ibuf
+# 	cycloneive_io_obuf
+# 	cycloneive_ddio_out
+# 	cycloneive_ddio_oe
+# 	cycloneive_pseudo_diff_out
+# 	cycloneive_io_pad
+# 	cycloneive_asmiblock
+# 	cycloneive_clkctrl
+# 	cycloneive_rublock
+# 	cycloneive_apfcontroller
+# 	cycloneive_termination
+# 	cycloneive_jtag
+# 	cycloneive_crcblock
+# 	cycloneive_oscillator
+# End time: 21:30:14 on Jan 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:30:16 on Jan 31,2022
+# vlog -reportprogress 300 ../Lab4/gen_tb.sv 
+# -- Compiling module gen_tb
+# 
+# Top level modules:
+# 	gen_tb
+# End time: 21:30:16 on Jan 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:30:28 on Jan 31,2022, Elapsed time: 0:03:20
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.gen_tb 
+# Start time: 21:30:28 on Jan 31,2022
+# Loading sv_std.std
+# Loading work.gen_tb
+# Loading work.gen
+# Loading work.phacc
+# Loading work.sine_rom
+# Loading work.sine_rom_altsyncram
+# Loading work.cycloneive_ram_block
+# Loading work.cycloneive_ram_register
+# Loading work.cycloneive_ram_pulse_generator
+# Loading work.sdmodb
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ../Lab4/gen_tb.sv(47)
+#    Time: 5310 ns  Iteration: 0  Instance: /gen_tb
+# Break in Module gen_tb at ../Lab4/gen_tb.sv line 47
+do gen_tb.do
+# gen_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:31:57 on Jan 31,2022
+# vlog -reportprogress 300 ../Lab4/gen.v 
+# -- Compiling module gen
+# 
+# Top level modules:
+# 	gen
+# End time: 21:31:57 on Jan 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:31:57 on Jan 31,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 21:31:58 on Jan 31,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:31:58 on Jan 31,2022
+# vlog -reportprogress 300 ../Lab4/sdmodb.v 
+# -- Compiling module sdmodb
+# 
+# Top level modules:
+# 	sdmodb
+# End time: 21:31:58 on Jan 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:31:58 on Jan 31,2022
+# vlog -reportprogress 300 ../Lab4/sine_rom.v 
+# -- Compiling module sine_rom
+# 
+# Top level modules:
+# 	sine_rom
+# End time: 21:31:58 on Jan 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:31:58 on Jan 31,2022
+# vlog -reportprogress 300 ../Lab4/sine_rom_syn.v 
+# -- Compiling module sine_rom_altsyncram
+# -- Compiling module sine_rom
+# 
+# Top level modules:
+# 	sine_rom
+# End time: 21:31:58 on Jan 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:31:59 on Jan 31,2022
+# vlog -reportprogress 300 K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/src/cycloneive_atoms.v 
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFE
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
+# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS_HIGH
+# -- Compiling module cycloneive_dffe
+# -- Compiling module cycloneive_mux21
+# -- Compiling module cycloneive_mux41
+# -- Compiling module cycloneive_and1
+# -- Compiling module cycloneive_and16
+# -- Compiling module cycloneive_bmux21
+# -- Compiling module cycloneive_b17mux21
+# -- Compiling module cycloneive_nmux21
+# -- Compiling module cycloneive_b5mux21
+# -- Compiling module cycloneive_latch
+# -- Compiling module cycloneive_routing_wire
+# -- Compiling module cycloneive_m_cntr
+# -- Compiling module cycloneive_n_cntr
+# -- Compiling module cycloneive_scale_cntr
+# -- Compiling module cycloneive_pll_reg
+# -- Compiling module cycloneive_pll
+# -- Compiling module cycloneive_lcell_comb
+# -- Compiling module cycloneive_ff
+# -- Compiling module cycloneive_ram_pulse_generator
+# -- Compiling module cycloneive_ram_register
+# -- Compiling module cycloneive_ram_block
+# -- Compiling module cycloneive_mac_data_reg
+# -- Compiling module cycloneive_mac_sign_reg
+# -- Compiling module cycloneive_mac_mult_internal
+# -- Compiling module cycloneive_mac_mult
+# -- Compiling module cycloneive_mac_out
+# -- Compiling module cycloneive_io_ibuf
+# -- Compiling module cycloneive_io_obuf
+# -- Compiling module cycloneive_ddio_out
+# -- Compiling module cycloneive_ddio_oe
+# -- Compiling module cycloneive_pseudo_diff_out
+# -- Compiling module cycloneive_io_pad
+# -- Compiling module cycloneive_asmiblock
+# -- Compiling module cycloneive_ena_reg
+# -- Compiling module cycloneive_clkctrl
+# -- Compiling module cycloneive_rublock
+# -- Compiling module cycloneive_apfcontroller
+# -- Compiling module cycloneive_termination_ctrl
+# -- Compiling module cycloneive_termination_rupdn
+# -- Compiling module cycloneive_termination
+# -- Compiling module cycloneive_jtag
+# -- Compiling module cycloneive_crcblock
+# -- Compiling module cycloneive_oscillator
+# 
+# Top level modules:
+# 	cycloneive_dffe
+# 	cycloneive_and1
+# 	cycloneive_and16
+# 	cycloneive_bmux21
+# 	cycloneive_b17mux21
+# 	cycloneive_nmux21
+# 	cycloneive_b5mux21
+# 	cycloneive_pll_reg
+# 	cycloneive_pll
+# 	cycloneive_lcell_comb
+# 	cycloneive_ff
+# 	cycloneive_ram_block
+# 	cycloneive_mac_mult
+# 	cycloneive_mac_out
+# 	cycloneive_io_ibuf
+# 	cycloneive_io_obuf
+# 	cycloneive_ddio_out
+# 	cycloneive_ddio_oe
+# 	cycloneive_pseudo_diff_out
+# 	cycloneive_io_pad
+# 	cycloneive_asmiblock
+# 	cycloneive_clkctrl
+# 	cycloneive_rublock
+# 	cycloneive_apfcontroller
+# 	cycloneive_termination
+# 	cycloneive_jtag
+# 	cycloneive_crcblock
+# 	cycloneive_oscillator
+# End time: 21:31:59 on Jan 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 21:32:00 on Jan 31,2022
+# vlog -reportprogress 300 ../Lab4/gen_tb.sv 
+# -- Compiling module gen_tb
+# 
+# Top level modules:
+# 	gen_tb
+# End time: 21:32:00 on Jan 31,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:32:10 on Jan 31,2022, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.gen_tb 
+# Start time: 21:32:10 on Jan 31,2022
+# Loading sv_std.std
+# Loading work.gen_tb
+# Loading work.gen
+# Loading work.phacc
+# Loading work.sine_rom
+# Loading work.sine_rom_altsyncram
+# Loading work.cycloneive_ram_block
+# Loading work.cycloneive_ram_register
+# Loading work.cycloneive_ram_pulse_generator
+# Loading work.sdmodb
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : ../Lab4/gen_tb.sv(47)
+#    Time: 20670 ns  Iteration: 0  Instance: /gen_tb
+# Break in Module gen_tb at ../Lab4/gen_tb.sv line 47

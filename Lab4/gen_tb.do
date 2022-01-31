@@ -24,10 +24,10 @@ add wave -noupdate -divider {all}
 add wave sim:/$name/*
 add wave -noupdate -divider {dut} 
 add wave sim:/$name/dut/*
-add wave -noupdate -divider {phacc_inst} 
-add wave sim:/$name/dut/phacc_inst/*
-add wave -noupdate -divider {sine_rom_inst} 
-add wave sim:/$name/dut/sine_rom_inst/*
-add wave -noupdate -divider {sdmodb_inst} 
-add wave sim:/$name/dut/sdmodb_inst/*
+add wave -noupdate -divider {pa} 
+add wave sim:/$name/dut/pa/*
+add wave -noupdate -divider {sr} 
+add wave sim:/$name/dut/sr/*
+add wave -noupdate -divider {sdm} 
+add wave sim:/$name/dut/sdm/*
 run -all

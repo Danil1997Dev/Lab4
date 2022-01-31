@@ -1,11 +1,12 @@
  
 
 module phacc#(
-	 parameter WIDTH = 14
+	 parameter WIDTH = 14,
+		   W_PHASE = 8
 )
 (
 	 input clk,clr_n,
-	 input [7:0] phinc,
+	 input [W_PHASE-1:0] phinc,
 	 output reg [7:0] phase 
 ); 
   
