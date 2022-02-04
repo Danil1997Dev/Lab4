@@ -1,647 +1,766 @@
 # Reading K:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
-do gen_tb.do
-# gen_tb
+do phacc_tb.do
+# phacc_tb
 # Lab4
 # memory.mem
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:25:11 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/gen.v 
-# -- Compiling module gen
-# 
-# Top level modules:
-# 	gen
-# End time: 21:25:11 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:25:12 on Jan 31,2022
+# Start time: 20:03:58 on Feb 04,2022
 # vlog -reportprogress 300 ../Lab4/phacc.v 
 # -- Compiling module phacc
 # 
 # Top level modules:
 # 	phacc
-# End time: 21:25:12 on Jan 31,2022, Elapsed time: 0:00:00
+# End time: 20:03:58 on Feb 04,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:25:12 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/sdmodb.v 
-# -- Compiling module sdmodb
-# 
-# Top level modules:
-# 	sdmodb
-# End time: 21:25:12 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:25:12 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/sine_rom.v 
-# -- Compiling module sine_rom
-# 
-# Top level modules:
-# 	sine_rom
-# End time: 21:25:12 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:25:12 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/sine_rom_syn.v 
-# -- Compiling module sine_rom_altsyncram
-# -- Compiling module sine_rom
-# 
-# Top level modules:
-# 	sine_rom
-# End time: 21:25:12 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:25:12 on Jan 31,2022
-# vlog -reportprogress 300 K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/src/cycloneive_atoms.v 
-# -- Compiling UDP CYCLONEIVE_PRIM_DFFE
-# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
-# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS_HIGH
-# -- Compiling module cycloneive_dffe
-# -- Compiling module cycloneive_mux21
-# -- Compiling module cycloneive_mux41
-# -- Compiling module cycloneive_and1
-# -- Compiling module cycloneive_and16
-# -- Compiling module cycloneive_bmux21
-# -- Compiling module cycloneive_b17mux21
-# -- Compiling module cycloneive_nmux21
-# -- Compiling module cycloneive_b5mux21
-# -- Compiling module cycloneive_latch
-# -- Compiling module cycloneive_routing_wire
-# -- Compiling module cycloneive_m_cntr
-# -- Compiling module cycloneive_n_cntr
-# -- Compiling module cycloneive_scale_cntr
-# -- Compiling module cycloneive_pll_reg
-# -- Compiling module cycloneive_pll
-# -- Compiling module cycloneive_lcell_comb
-# -- Compiling module cycloneive_ff
-# -- Compiling module cycloneive_ram_pulse_generator
-# -- Compiling module cycloneive_ram_register
-# -- Compiling module cycloneive_ram_block
-# -- Compiling module cycloneive_mac_data_reg
-# -- Compiling module cycloneive_mac_sign_reg
-# -- Compiling module cycloneive_mac_mult_internal
-# -- Compiling module cycloneive_mac_mult
-# -- Compiling module cycloneive_mac_out
-# -- Compiling module cycloneive_io_ibuf
-# -- Compiling module cycloneive_io_obuf
-# -- Compiling module cycloneive_ddio_out
-# -- Compiling module cycloneive_ddio_oe
-# -- Compiling module cycloneive_pseudo_diff_out
-# -- Compiling module cycloneive_io_pad
-# -- Compiling module cycloneive_asmiblock
-# -- Compiling module cycloneive_ena_reg
-# -- Compiling module cycloneive_clkctrl
-# -- Compiling module cycloneive_rublock
-# -- Compiling module cycloneive_apfcontroller
-# -- Compiling module cycloneive_termination_ctrl
-# -- Compiling module cycloneive_termination_rupdn
-# -- Compiling module cycloneive_termination
-# -- Compiling module cycloneive_jtag
-# -- Compiling module cycloneive_crcblock
-# -- Compiling module cycloneive_oscillator
-# 
-# Top level modules:
-# 	cycloneive_dffe
-# 	cycloneive_and1
-# 	cycloneive_and16
-# 	cycloneive_bmux21
-# 	cycloneive_b17mux21
-# 	cycloneive_nmux21
-# 	cycloneive_b5mux21
-# 	cycloneive_pll_reg
-# 	cycloneive_pll
-# 	cycloneive_lcell_comb
-# 	cycloneive_ff
-# 	cycloneive_ram_block
-# 	cycloneive_mac_mult
-# 	cycloneive_mac_out
-# 	cycloneive_io_ibuf
-# 	cycloneive_io_obuf
-# 	cycloneive_ddio_out
-# 	cycloneive_ddio_oe
-# 	cycloneive_pseudo_diff_out
-# 	cycloneive_io_pad
-# 	cycloneive_asmiblock
-# 	cycloneive_clkctrl
-# 	cycloneive_rublock
-# 	cycloneive_apfcontroller
-# 	cycloneive_termination
-# 	cycloneive_jtag
-# 	cycloneive_crcblock
-# 	cycloneive_oscillator
-# End time: 21:25:13 on Jan 31,2022, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:25:15 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/gen_tb.sv 
+# Start time: 20:03:58 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
 # -- Compiling module gen_tb
-# 
-# Top level modules:
-# 	gen_tb
-# End time: 21:25:15 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim -voptargs="+acc" work.gen_tb 
-# Start time: 21:25:15 on Jan 31,2022
-# Loading sv_std.std
-# Loading work.gen_tb
-# Loading work.gen
-# Loading work.phacc
-# Loading work.sine_rom
-# Loading work.sine_rom_altsyncram
-# Loading work.cycloneive_ram_block
-# Loading work.cycloneive_ram_register
-# Loading work.cycloneive_ram_pulse_generator
-# Loading work.sdmodb
-# ** Warning: (vsim-3015) ../Lab4/gen.v(28): [PCDPC] - Port size (8) does not match connection size (1) for port 'q'. The port definition is at: ../Lab4/sine_rom_syn.v(558).
-#    Time: 0 ps  Iteration: 0  Instance: /gen_tb/dut/sr File: ../Lab4/sine_rom_syn.v
-# ** Warning: (vsim-3015) ../Lab4/gen.v(32): [PCDPC] - Port size (8) does not match connection size (1) for port 'val'. The port definition is at: ../Lab4/sdmodb.v(6).
-#    Time: 0 ps  Iteration: 0  Instance: /gen_tb/dut/sdm File: ../Lab4/sdmodb.v
-# .main_pane.wave.interior.cs.body.pw.wf
-# .main_pane.structure.interior.cs.body.struct
-# .main_pane.objects.interior.cs.body.tree
-# ** Note: $stop    : ../Lab4/gen_tb.sv(47)
-#    Time: 20670 ns  Iteration: 0  Instance: /gen_tb
-# Break in Module gen_tb at ../Lab4/gen_tb.sv line 47
-do gen_tb.do
-# gen_tb
+# ** Warning: ../Lab4/phacc_tb.sv(44): (vlog-2252) Missing incrementer in "FOR" statement.
+# ** Error: (vlog-13069) ../Lab4/phacc_tb.sv(44): near "(": syntax error, unexpected '(', expecting ')'.
+# ** Error: (vlog-13069) ../Lab4/phacc_tb.sv(61): near "end": syntax error, unexpected end.
+# ** Error (suppressible): ../Lab4/phacc_tb.sv(69): (vlog-2720) A generate begin/end pair has been found outside of generate construct.
+# ** Error: (vlog-13069) ../Lab4/phacc_tb.sv(69): near "@": syntax error, unexpected '@'.
+# ** Error: ../Lab4/phacc_tb.sv(71): (vlog-13205) Syntax error found in the scope following 'wr_n'. Is there a missing '::'?
+# End time: 20:03:59 on Feb 04,2022, Elapsed time: 0:00:01
+# Errors: 5, Warnings: 1
+# ** Error: K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./phacc_tb.do line 9
+# K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "../$pass/$name.sv"  "
+do phacc_tb.do
+# phacc_tb
 # Lab4
 # memory.mem
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:26:58 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/gen.v 
-# -- Compiling module gen
-# 
-# Top level modules:
-# 	gen
-# End time: 21:26:58 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:26:59 on Jan 31,2022
+# Start time: 20:04:36 on Feb 04,2022
 # vlog -reportprogress 300 ../Lab4/phacc.v 
 # -- Compiling module phacc
 # 
 # Top level modules:
 # 	phacc
-# End time: 21:26:59 on Jan 31,2022, Elapsed time: 0:00:00
+# End time: 20:04:36 on Feb 04,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:26:59 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/sdmodb.v 
-# -- Compiling module sdmodb
-# 
-# Top level modules:
-# 	sdmodb
-# End time: 21:26:59 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:26:59 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/sine_rom.v 
-# -- Compiling module sine_rom
-# 
-# Top level modules:
-# 	sine_rom
-# End time: 21:26:59 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:26:59 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/sine_rom_syn.v 
-# -- Compiling module sine_rom_altsyncram
-# -- Compiling module sine_rom
-# 
-# Top level modules:
-# 	sine_rom
-# End time: 21:27:00 on Jan 31,2022, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:27:00 on Jan 31,2022
-# vlog -reportprogress 300 K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/src/cycloneive_atoms.v 
-# -- Compiling UDP CYCLONEIVE_PRIM_DFFE
-# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
-# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS_HIGH
-# -- Compiling module cycloneive_dffe
-# -- Compiling module cycloneive_mux21
-# -- Compiling module cycloneive_mux41
-# -- Compiling module cycloneive_and1
-# -- Compiling module cycloneive_and16
-# -- Compiling module cycloneive_bmux21
-# -- Compiling module cycloneive_b17mux21
-# -- Compiling module cycloneive_nmux21
-# -- Compiling module cycloneive_b5mux21
-# -- Compiling module cycloneive_latch
-# -- Compiling module cycloneive_routing_wire
-# -- Compiling module cycloneive_m_cntr
-# -- Compiling module cycloneive_n_cntr
-# -- Compiling module cycloneive_scale_cntr
-# -- Compiling module cycloneive_pll_reg
-# -- Compiling module cycloneive_pll
-# -- Compiling module cycloneive_lcell_comb
-# -- Compiling module cycloneive_ff
-# -- Compiling module cycloneive_ram_pulse_generator
-# -- Compiling module cycloneive_ram_register
-# -- Compiling module cycloneive_ram_block
-# -- Compiling module cycloneive_mac_data_reg
-# -- Compiling module cycloneive_mac_sign_reg
-# -- Compiling module cycloneive_mac_mult_internal
-# -- Compiling module cycloneive_mac_mult
-# -- Compiling module cycloneive_mac_out
-# -- Compiling module cycloneive_io_ibuf
-# -- Compiling module cycloneive_io_obuf
-# -- Compiling module cycloneive_ddio_out
-# -- Compiling module cycloneive_ddio_oe
-# -- Compiling module cycloneive_pseudo_diff_out
-# -- Compiling module cycloneive_io_pad
-# -- Compiling module cycloneive_asmiblock
-# -- Compiling module cycloneive_ena_reg
-# -- Compiling module cycloneive_clkctrl
-# -- Compiling module cycloneive_rublock
-# -- Compiling module cycloneive_apfcontroller
-# -- Compiling module cycloneive_termination_ctrl
-# -- Compiling module cycloneive_termination_rupdn
-# -- Compiling module cycloneive_termination
-# -- Compiling module cycloneive_jtag
-# -- Compiling module cycloneive_crcblock
-# -- Compiling module cycloneive_oscillator
-# 
-# Top level modules:
-# 	cycloneive_dffe
-# 	cycloneive_and1
-# 	cycloneive_and16
-# 	cycloneive_bmux21
-# 	cycloneive_b17mux21
-# 	cycloneive_nmux21
-# 	cycloneive_b5mux21
-# 	cycloneive_pll_reg
-# 	cycloneive_pll
-# 	cycloneive_lcell_comb
-# 	cycloneive_ff
-# 	cycloneive_ram_block
-# 	cycloneive_mac_mult
-# 	cycloneive_mac_out
-# 	cycloneive_io_ibuf
-# 	cycloneive_io_obuf
-# 	cycloneive_ddio_out
-# 	cycloneive_ddio_oe
-# 	cycloneive_pseudo_diff_out
-# 	cycloneive_io_pad
-# 	cycloneive_asmiblock
-# 	cycloneive_clkctrl
-# 	cycloneive_rublock
-# 	cycloneive_apfcontroller
-# 	cycloneive_termination
-# 	cycloneive_jtag
-# 	cycloneive_crcblock
-# 	cycloneive_oscillator
-# End time: 21:27:01 on Jan 31,2022, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:27:02 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/gen_tb.sv 
+# Start time: 20:04:36 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
 # -- Compiling module gen_tb
-# 
-# Top level modules:
-# 	gen_tb
-# End time: 21:27:02 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 21:27:08 on Jan 31,2022, Elapsed time: 0:01:53
-# Errors: 0, Warnings: 2
-# vsim -voptargs="+acc" work.gen_tb 
-# Start time: 21:27:08 on Jan 31,2022
-# Loading sv_std.std
-# Loading work.gen_tb
-# Loading work.gen
-# Loading work.phacc
-# Loading work.sine_rom
-# Loading work.sine_rom_altsyncram
-# Loading work.cycloneive_ram_block
-# Loading work.cycloneive_ram_register
-# Loading work.cycloneive_ram_pulse_generator
-# Loading work.sdmodb
-# .main_pane.wave.interior.cs.body.pw.wf
-# .main_pane.structure.interior.cs.body.struct
-# .main_pane.objects.interior.cs.body.tree
-# ** Note: $stop    : ../Lab4/gen_tb.sv(47)
-#    Time: 20670 ns  Iteration: 0  Instance: /gen_tb
-# Break in Module gen_tb at ../Lab4/gen_tb.sv line 47
-do gen_tb.do
-# gen_tb
+# ** Warning: ../Lab4/phacc_tb.sv(44): (vlog-2252) Missing incrementer in "FOR" statement.
+# ** Error: (vlog-13069) ../Lab4/phacc_tb.sv(44): near "(": syntax error, unexpected '(', expecting ')'.
+# ** Error: (vlog-13069) ../Lab4/phacc_tb.sv(61): near "#": syntax error, unexpected '#'.
+# ** Error (suppressible): ../Lab4/phacc_tb.sv(70): (vlog-2720) A generate begin/end pair has been found outside of generate construct.
+# ** Error: (vlog-13069) ../Lab4/phacc_tb.sv(70): near "@": syntax error, unexpected '@'.
+# ** Error: ../Lab4/phacc_tb.sv(72): (vlog-13205) Syntax error found in the scope following 'wr_n'. Is there a missing '::'?
+# End time: 20:04:36 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 1
+# ** Error: K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./phacc_tb.do line 9
+# K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "../$pass/$name.sv"  "
+do phacc_tb.do
+# phacc_tb
 # Lab4
 # memory.mem
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:30:12 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/gen.v 
-# -- Compiling module gen
-# 
-# Top level modules:
-# 	gen
-# End time: 21:30:12 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:30:12 on Jan 31,2022
+# Start time: 20:07:26 on Feb 04,2022
 # vlog -reportprogress 300 ../Lab4/phacc.v 
 # -- Compiling module phacc
 # 
 # Top level modules:
 # 	phacc
-# End time: 21:30:12 on Jan 31,2022, Elapsed time: 0:00:00
+# End time: 20:07:26 on Feb 04,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:30:12 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/sdmodb.v 
-# -- Compiling module sdmodb
-# 
-# Top level modules:
-# 	sdmodb
-# End time: 21:30:12 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:30:12 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/sine_rom.v 
-# -- Compiling module sine_rom
-# 
-# Top level modules:
-# 	sine_rom
-# End time: 21:30:12 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:30:13 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/sine_rom_syn.v 
-# -- Compiling module sine_rom_altsyncram
-# -- Compiling module sine_rom
-# 
-# Top level modules:
-# 	sine_rom
-# End time: 21:30:13 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:30:14 on Jan 31,2022
-# vlog -reportprogress 300 K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/src/cycloneive_atoms.v 
-# -- Compiling UDP CYCLONEIVE_PRIM_DFFE
-# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
-# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS_HIGH
-# -- Compiling module cycloneive_dffe
-# -- Compiling module cycloneive_mux21
-# -- Compiling module cycloneive_mux41
-# -- Compiling module cycloneive_and1
-# -- Compiling module cycloneive_and16
-# -- Compiling module cycloneive_bmux21
-# -- Compiling module cycloneive_b17mux21
-# -- Compiling module cycloneive_nmux21
-# -- Compiling module cycloneive_b5mux21
-# -- Compiling module cycloneive_latch
-# -- Compiling module cycloneive_routing_wire
-# -- Compiling module cycloneive_m_cntr
-# -- Compiling module cycloneive_n_cntr
-# -- Compiling module cycloneive_scale_cntr
-# -- Compiling module cycloneive_pll_reg
-# -- Compiling module cycloneive_pll
-# -- Compiling module cycloneive_lcell_comb
-# -- Compiling module cycloneive_ff
-# -- Compiling module cycloneive_ram_pulse_generator
-# -- Compiling module cycloneive_ram_register
-# -- Compiling module cycloneive_ram_block
-# -- Compiling module cycloneive_mac_data_reg
-# -- Compiling module cycloneive_mac_sign_reg
-# -- Compiling module cycloneive_mac_mult_internal
-# -- Compiling module cycloneive_mac_mult
-# -- Compiling module cycloneive_mac_out
-# -- Compiling module cycloneive_io_ibuf
-# -- Compiling module cycloneive_io_obuf
-# -- Compiling module cycloneive_ddio_out
-# -- Compiling module cycloneive_ddio_oe
-# -- Compiling module cycloneive_pseudo_diff_out
-# -- Compiling module cycloneive_io_pad
-# -- Compiling module cycloneive_asmiblock
-# -- Compiling module cycloneive_ena_reg
-# -- Compiling module cycloneive_clkctrl
-# -- Compiling module cycloneive_rublock
-# -- Compiling module cycloneive_apfcontroller
-# -- Compiling module cycloneive_termination_ctrl
-# -- Compiling module cycloneive_termination_rupdn
-# -- Compiling module cycloneive_termination
-# -- Compiling module cycloneive_jtag
-# -- Compiling module cycloneive_crcblock
-# -- Compiling module cycloneive_oscillator
-# 
-# Top level modules:
-# 	cycloneive_dffe
-# 	cycloneive_and1
-# 	cycloneive_and16
-# 	cycloneive_bmux21
-# 	cycloneive_b17mux21
-# 	cycloneive_nmux21
-# 	cycloneive_b5mux21
-# 	cycloneive_pll_reg
-# 	cycloneive_pll
-# 	cycloneive_lcell_comb
-# 	cycloneive_ff
-# 	cycloneive_ram_block
-# 	cycloneive_mac_mult
-# 	cycloneive_mac_out
-# 	cycloneive_io_ibuf
-# 	cycloneive_io_obuf
-# 	cycloneive_ddio_out
-# 	cycloneive_ddio_oe
-# 	cycloneive_pseudo_diff_out
-# 	cycloneive_io_pad
-# 	cycloneive_asmiblock
-# 	cycloneive_clkctrl
-# 	cycloneive_rublock
-# 	cycloneive_apfcontroller
-# 	cycloneive_termination
-# 	cycloneive_jtag
-# 	cycloneive_crcblock
-# 	cycloneive_oscillator
-# End time: 21:30:14 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:30:16 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/gen_tb.sv 
+# Start time: 20:07:26 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
 # -- Compiling module gen_tb
-# 
-# Top level modules:
-# 	gen_tb
-# End time: 21:30:16 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# End time: 21:30:28 on Jan 31,2022, Elapsed time: 0:03:20
-# Errors: 0, Warnings: 0
-# vsim -voptargs="+acc" work.gen_tb 
-# Start time: 21:30:28 on Jan 31,2022
-# Loading sv_std.std
-# Loading work.gen_tb
-# Loading work.gen
-# Loading work.phacc
-# Loading work.sine_rom
-# Loading work.sine_rom_altsyncram
-# Loading work.cycloneive_ram_block
-# Loading work.cycloneive_ram_register
-# Loading work.cycloneive_ram_pulse_generator
-# Loading work.sdmodb
-# .main_pane.wave.interior.cs.body.pw.wf
-# .main_pane.structure.interior.cs.body.struct
-# .main_pane.objects.interior.cs.body.tree
-# ** Note: $stop    : ../Lab4/gen_tb.sv(47)
-#    Time: 5310 ns  Iteration: 0  Instance: /gen_tb
-# Break in Module gen_tb at ../Lab4/gen_tb.sv line 47
-do gen_tb.do
-# gen_tb
+# ** Warning: ../Lab4/phacc_tb.sv(44): (vlog-2252) Missing incrementer in "FOR" statement.
+# ** Error: (vlog-13069) ../Lab4/phacc_tb.sv(44): near "(": syntax error, unexpected '(', expecting ')'.
+# ** Error: (vlog-13069) ../Lab4/phacc_tb.sv(61): near "#": syntax error, unexpected '#'.
+# ** Error (suppressible): ../Lab4/phacc_tb.sv(70): (vlog-2720) A generate begin/end pair has been found outside of generate construct.
+# ** Error: (vlog-13069) ../Lab4/phacc_tb.sv(70): near "@": syntax error, unexpected '@'.
+# ** Error: ../Lab4/phacc_tb.sv(72): (vlog-13205) Syntax error found in the scope following 'wr_n'. Is there a missing '::'?
+# End time: 20:07:26 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 1
+# ** Error: K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./phacc_tb.do line 9
+# K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "../$pass/$name.sv"  "
+do phacc_tb.do
+# phacc_tb
 # Lab4
 # memory.mem
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:31:57 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/gen.v 
-# -- Compiling module gen
-# 
-# Top level modules:
-# 	gen
-# End time: 21:31:57 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:31:57 on Jan 31,2022
+# Start time: 20:09:14 on Feb 04,2022
 # vlog -reportprogress 300 ../Lab4/phacc.v 
 # -- Compiling module phacc
 # 
 # Top level modules:
 # 	phacc
-# End time: 21:31:58 on Jan 31,2022, Elapsed time: 0:00:01
+# End time: 20:09:14 on Feb 04,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:31:58 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/sdmodb.v 
-# -- Compiling module sdmodb
+# Start time: 20:09:14 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
+# -- Compiling module gen_tb
+# ** Error: ../Lab4/phacc_tb.sv(44): (vlog-2730) Undefined variable: 'n'.
+# End time: 20:09:14 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./phacc_tb.do line 9
+# K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "../$pass/$name.sv"  "
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:09:38 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
 # 
 # Top level modules:
-# 	sdmodb
-# End time: 21:31:58 on Jan 31,2022, Elapsed time: 0:00:00
+# 	phacc
+# End time: 20:09:38 on Feb 04,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:31:58 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/sine_rom.v 
-# -- Compiling module sine_rom
-# 
-# Top level modules:
-# 	sine_rom
-# End time: 21:31:58 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:31:58 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/sine_rom_syn.v 
-# -- Compiling module sine_rom_altsyncram
-# -- Compiling module sine_rom
-# 
-# Top level modules:
-# 	sine_rom
-# End time: 21:31:58 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:31:59 on Jan 31,2022
-# vlog -reportprogress 300 K:/intelFPGA_lite/18.1/modelsim_ase/altera/verilog/src/cycloneive_atoms.v 
-# -- Compiling UDP CYCLONEIVE_PRIM_DFFE
-# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS
-# -- Compiling UDP CYCLONEIVE_PRIM_DFFEAS_HIGH
-# -- Compiling module cycloneive_dffe
-# -- Compiling module cycloneive_mux21
-# -- Compiling module cycloneive_mux41
-# -- Compiling module cycloneive_and1
-# -- Compiling module cycloneive_and16
-# -- Compiling module cycloneive_bmux21
-# -- Compiling module cycloneive_b17mux21
-# -- Compiling module cycloneive_nmux21
-# -- Compiling module cycloneive_b5mux21
-# -- Compiling module cycloneive_latch
-# -- Compiling module cycloneive_routing_wire
-# -- Compiling module cycloneive_m_cntr
-# -- Compiling module cycloneive_n_cntr
-# -- Compiling module cycloneive_scale_cntr
-# -- Compiling module cycloneive_pll_reg
-# -- Compiling module cycloneive_pll
-# -- Compiling module cycloneive_lcell_comb
-# -- Compiling module cycloneive_ff
-# -- Compiling module cycloneive_ram_pulse_generator
-# -- Compiling module cycloneive_ram_register
-# -- Compiling module cycloneive_ram_block
-# -- Compiling module cycloneive_mac_data_reg
-# -- Compiling module cycloneive_mac_sign_reg
-# -- Compiling module cycloneive_mac_mult_internal
-# -- Compiling module cycloneive_mac_mult
-# -- Compiling module cycloneive_mac_out
-# -- Compiling module cycloneive_io_ibuf
-# -- Compiling module cycloneive_io_obuf
-# -- Compiling module cycloneive_ddio_out
-# -- Compiling module cycloneive_ddio_oe
-# -- Compiling module cycloneive_pseudo_diff_out
-# -- Compiling module cycloneive_io_pad
-# -- Compiling module cycloneive_asmiblock
-# -- Compiling module cycloneive_ena_reg
-# -- Compiling module cycloneive_clkctrl
-# -- Compiling module cycloneive_rublock
-# -- Compiling module cycloneive_apfcontroller
-# -- Compiling module cycloneive_termination_ctrl
-# -- Compiling module cycloneive_termination_rupdn
-# -- Compiling module cycloneive_termination
-# -- Compiling module cycloneive_jtag
-# -- Compiling module cycloneive_crcblock
-# -- Compiling module cycloneive_oscillator
-# 
-# Top level modules:
-# 	cycloneive_dffe
-# 	cycloneive_and1
-# 	cycloneive_and16
-# 	cycloneive_bmux21
-# 	cycloneive_b17mux21
-# 	cycloneive_nmux21
-# 	cycloneive_b5mux21
-# 	cycloneive_pll_reg
-# 	cycloneive_pll
-# 	cycloneive_lcell_comb
-# 	cycloneive_ff
-# 	cycloneive_ram_block
-# 	cycloneive_mac_mult
-# 	cycloneive_mac_out
-# 	cycloneive_io_ibuf
-# 	cycloneive_io_obuf
-# 	cycloneive_ddio_out
-# 	cycloneive_ddio_oe
-# 	cycloneive_pseudo_diff_out
-# 	cycloneive_io_pad
-# 	cycloneive_asmiblock
-# 	cycloneive_clkctrl
-# 	cycloneive_rublock
-# 	cycloneive_apfcontroller
-# 	cycloneive_termination
-# 	cycloneive_jtag
-# 	cycloneive_crcblock
-# 	cycloneive_oscillator
-# End time: 21:31:59 on Jan 31,2022, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:32:00 on Jan 31,2022
-# vlog -reportprogress 300 ../Lab4/gen_tb.sv 
+# Start time: 20:09:38 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
 # -- Compiling module gen_tb
 # 
 # Top level modules:
 # 	gen_tb
-# End time: 21:32:00 on Jan 31,2022, Elapsed time: 0:00:00
+# End time: 20:09:38 on Feb 04,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# End time: 21:32:10 on Jan 31,2022, Elapsed time: 0:01:42
+# vsim -voptargs="+acc" work.phacc_tb 
+# Start time: 20:09:38 on Feb 04,2022
+# ** Error: (vsim-3170) Could not find 'phacc_tb'.
+#         Searched libraries:
+#             D:/intelFPGA/18.1/Lab4/Lab4/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./phacc_tb.do PAUSED at line 10
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:10:20 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 20:10:20 on Feb 04,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vsim -voptargs="+acc" work.gen_tb 
-# Start time: 21:32:10 on Jan 31,2022
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:10:20 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
+# -- Compiling module phacc_tb
+# 
+# Top level modules:
+# 	phacc_tb
+# End time: 20:10:20 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.phacc_tb 
+# Start time: 20:09:38 on Feb 04,2022
 # Loading sv_std.std
-# Loading work.gen_tb
-# Loading work.gen
+# Loading work.phacc_tb
 # Loading work.phacc
-# Loading work.sine_rom
-# Loading work.sine_rom_altsyncram
-# Loading work.cycloneive_ram_block
-# Loading work.cycloneive_ram_register
-# Loading work.cycloneive_ram_pulse_generator
-# Loading work.sdmodb
+# ** Error (suppressible): (vsim-10000) ../Lab4/phacc_tb.sv(22): Unresolved defparam reference to 'PHACC_WIDTH' in dut.PHACC_WIDTH.
+#    Time: 0 ps  Iteration: 0  Instance: /phacc_tb File: ../Lab4/phacc_tb.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./phacc_tb.do PAUSED at line 10
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:10:53 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 20:10:53 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:10:53 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
+# -- Compiling module phacc_tb
+# 
+# Top level modules:
+# 	phacc_tb
+# End time: 20:10:54 on Feb 04,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.phacc_tb 
+# Start time: 20:09:38 on Feb 04,2022
+# Loading sv_std.std
+# Loading work.phacc_tb
+# Loading work.phacc
+# ** Error: (vsim-3063) ../Lab4/phacc_tb.sv(21): Port 'wr_data' not found in the connected module (3rd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /phacc_tb/dut File: ../Lab4/phacc.v
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./phacc_tb.do PAUSED at line 10
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:20:23 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 20:20:23 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:20:23 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
+# -- Compiling module phacc_tb
+# 
+# Top level modules:
+# 	phacc_tb
+# End time: 20:20:23 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.phacc_tb 
+# Start time: 20:09:38 on Feb 04,2022
+# Loading sv_std.std
+# Loading work.phacc_tb
+# Loading work.phacc
 # .main_pane.wave.interior.cs.body.pw.wf
 # .main_pane.structure.interior.cs.body.struct
 # .main_pane.objects.interior.cs.body.tree
-# ** Note: $stop    : ../Lab4/gen_tb.sv(47)
-#    Time: 20670 ns  Iteration: 0  Instance: /gen_tb
-# Break in Module gen_tb at ../Lab4/gen_tb.sv line 47
+# ** Note: $stop    : ../Lab4/phacc_tb.sv(52)
+#    Time: 20671 ns  Iteration: 0  Instance: /phacc_tb
+# Break in Module phacc_tb at ../Lab4/phacc_tb.sv line 52
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:21:51 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 20:21:51 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:21:51 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
+# -- Compiling module phacc_tb
+# 
+# Top level modules:
+# 	phacc_tb
+# End time: 20:21:51 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:21:58 on Feb 04,2022, Elapsed time: 0:12:20
+# Errors: 3, Warnings: 0
+# vsim -voptargs="+acc" work.phacc_tb 
+# Start time: 20:21:58 on Feb 04,2022
+# Loading sv_std.std
+# Loading work.phacc_tb
+# Loading work.phacc
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Error: value of phase increment is out of range! Stopped simulation.
+# ** Note: $stop    : ../Lab4/phacc_tb.sv(123)
+#    Time: 82351 ns  Iteration: 0  Instance: /phacc_tb
+# Break in Module phacc_tb at ../Lab4/phacc_tb.sv line 123
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:23:43 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 20:23:43 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:23:43 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
+# -- Compiling module phacc_tb
+# 
+# Top level modules:
+# 	phacc_tb
+# End time: 20:23:43 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:23:49 on Feb 04,2022, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.phacc_tb 
+# Start time: 20:23:49 on Feb 04,2022
+# Loading sv_std.std
+# Loading work.phacc_tb
+# Loading work.phacc
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Error: value of phase increment is out of range! Stopped simulation.
+# ** Note: $stop    : ../Lab4/phacc_tb.sv(123)
+#    Time: 82351 ns  Iteration: 0  Instance: /phacc_tb
+# Break in Module phacc_tb at ../Lab4/phacc_tb.sv line 123
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:25:27 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# ** Error: (vlog-13069) ../Lab4/phacc.v(9): near "reg": syntax error, unexpected reg, expecting IDENTIFIER.
+# End time: 20:25:27 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./phacc_tb.do line 8
+# K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "../$pass/phacc.v"   "
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:25:41 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 20:25:41 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:25:41 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
+# -- Compiling module phacc_tb
+# 
+# Top level modules:
+# 	phacc_tb
+# End time: 20:25:41 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:25:45 on Feb 04,2022, Elapsed time: 0:01:56
+# Errors: 4, Warnings: 0
+# vsim -voptargs="+acc" work.phacc_tb 
+# Start time: 20:25:45 on Feb 04,2022
+# Loading sv_std.std
+# Loading work.phacc_tb
+# Loading work.phacc
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Error: value of phase increment is out of range! Stopped simulation.
+# ** Note: $stop    : ../Lab4/phacc_tb.sv(123)
+#    Time: 82351 ns  Iteration: 0  Instance: /phacc_tb
+# Break in Module phacc_tb at ../Lab4/phacc_tb.sv line 123
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:27:01 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 20:27:01 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:27:01 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
+# -- Compiling module phacc_tb
+# 
+# Top level modules:
+# 	phacc_tb
+# End time: 20:27:01 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:27:07 on Feb 04,2022, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.phacc_tb 
+# Start time: 20:27:07 on Feb 04,2022
+# Loading sv_std.std
+# Loading work.phacc_tb
+# Loading work.phacc
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Error: value of phase increment is out of range! Stopped simulation.
+# ** Note: $stop    : ../Lab4/phacc_tb.sv(123)
+#    Time: 82351 ns  Iteration: 0  Instance: /phacc_tb
+# Break in Module phacc_tb at ../Lab4/phacc_tb.sv line 123
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:28:19 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 20:28:19 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:28:19 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
+# -- Compiling module phacc_tb
+# 
+# Top level modules:
+# 	phacc_tb
+# End time: 20:28:19 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:28:25 on Feb 04,2022, Elapsed time: 0:01:18
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.phacc_tb 
+# Start time: 20:28:25 on Feb 04,2022
+# Loading sv_std.std
+# Loading work.phacc_tb
+# Loading work.phacc
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Error: value of phase increment is out of range! Stopped simulation.
+# ** Note: $stop    : ../Lab4/phacc_tb.sv(123)
+#    Time: 82351 ns  Iteration: 0  Instance: /phacc_tb
+# Break in Module phacc_tb at ../Lab4/phacc_tb.sv line 123
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:31:29 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 20:31:30 on Feb 04,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:31:30 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
+# -- Compiling module phacc_tb
+# 
+# Top level modules:
+# 	phacc_tb
+# End time: 20:31:30 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:31:36 on Feb 04,2022, Elapsed time: 0:03:11
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.phacc_tb 
+# Start time: 20:31:36 on Feb 04,2022
+# Loading sv_std.std
+# Loading work.phacc_tb
+# Loading work.phacc
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Error: value of phase increment is out of range! Stopped simulation.
+# ** Note: $stop    : ../Lab4/phacc_tb.sv(122)
+#    Time: 82351 ns  Iteration: 0  Instance: /phacc_tb
+# Break in Module phacc_tb at ../Lab4/phacc_tb.sv line 122
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:35:55 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 20:35:55 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:35:55 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
+# -- Compiling module phacc_tb
+# ** Error: (vlog-13069) ../Lab4/phacc_tb.sv(51): near "-": syntax error, unexpected '-'.
+# ** Error: (vlog-13069) ../Lab4/phacc_tb.sv(67): near "-": syntax error, unexpected '-'.
+# ** Error: (vlog-13069) ../Lab4/phacc_tb.sv(83): near "-": syntax error, unexpected '-'.
+# ** Error: (vlog-13069) ../Lab4/phacc_tb.sv(99): near "-": syntax error, unexpected '-'.
+# ** Error: (vlog-13069) ../Lab4/phacc_tb.sv(115): near "-": syntax error, unexpected '-'.
+# ** Error: (vlog-13069) ../Lab4/phacc_tb.sv(131): near "-": syntax error, unexpected '-'.
+# End time: 20:35:55 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./phacc_tb.do line 9
+# K:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog "../$pass/$name.sv"  "
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:36:59 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 20:36:59 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:36:59 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
+# -- Compiling module phacc_tb
+# 
+# Top level modules:
+# 	phacc_tb
+# End time: 20:36:59 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:37:05 on Feb 04,2022, Elapsed time: 0:05:29
+# Errors: 9, Warnings: 0
+# vsim -voptargs="+acc" work.phacc_tb 
+# Start time: 20:37:05 on Feb 04,2022
+# Loading sv_std.std
+# Loading work.phacc_tb
+# Loading work.phacc
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Error: value of phase increment is out of range! Stopped simulation.
+# ** Note: $stop    : ../Lab4/phacc_tb.sv(122)
+#    Time: 28411 ns  Iteration: 0  Instance: /phacc_tb
+# Break in Module phacc_tb at ../Lab4/phacc_tb.sv line 122
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:40:18 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 20:40:18 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:40:18 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
+# -- Compiling module phacc_tb
+# 
+# Top level modules:
+# 	phacc_tb
+# End time: 20:40:18 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:40:25 on Feb 04,2022, Elapsed time: 0:03:20
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.phacc_tb 
+# Start time: 20:40:25 on Feb 04,2022
+# Loading sv_std.std
+# Loading work.phacc_tb
+# Loading work.phacc
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Simulation stop requested.
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:42:40 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 20:42:40 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:42:41 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
+# -- Compiling module phacc_tb
+# 
+# Top level modules:
+# 	phacc_tb
+# End time: 20:42:41 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:42:45 on Feb 04,2022, Elapsed time: 0:02:20
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.phacc_tb 
+# Start time: 20:42:45 on Feb 04,2022
+# Loading sv_std.std
+# Loading work.phacc_tb
+# Loading work.phacc
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Simulation stop requested.
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:44:28 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 20:44:28 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:44:28 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
+# -- Compiling module phacc_tb
+# 
+# Top level modules:
+# 	phacc_tb
+# End time: 20:44:28 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:44:32 on Feb 04,2022, Elapsed time: 0:01:47
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.phacc_tb 
+# Start time: 20:44:32 on Feb 04,2022
+# Loading sv_std.std
+# Loading work.phacc_tb
+# Loading work.phacc
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Simulation stop requested.
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:25 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 20:45:25 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:45:25 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
+# -- Compiling module phacc_tb
+# 
+# Top level modules:
+# 	phacc_tb
+# End time: 20:45:25 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:45:29 on Feb 04,2022, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.phacc_tb 
+# Start time: 20:45:29 on Feb 04,2022
+# Loading sv_std.std
+# Loading work.phacc_tb
+# Loading work.phacc
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Simulation stop requested.
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:46:55 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 20:46:55 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:46:56 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
+# -- Compiling module phacc_tb
+# 
+# Top level modules:
+# 	phacc_tb
+# End time: 20:46:56 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:46:59 on Feb 04,2022, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.phacc_tb 
+# Start time: 20:46:59 on Feb 04,2022
+# Loading sv_std.std
+# Loading work.phacc_tb
+# Loading work.phacc
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# Break key hit
+# Simulation stop requested.
+do phacc_tb.do
+# phacc_tb
+# Lab4
+# memory.mem
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:47:46 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc.v 
+# -- Compiling module phacc
+# 
+# Top level modules:
+# 	phacc
+# End time: 20:47:46 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:47:46 on Feb 04,2022
+# vlog -reportprogress 300 ../Lab4/phacc_tb.sv 
+# -- Compiling module phacc_tb
+# 
+# Top level modules:
+# 	phacc_tb
+# End time: 20:47:46 on Feb 04,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:47:50 on Feb 04,2022, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.phacc_tb 
+# Start time: 20:47:50 on Feb 04,2022
+# Loading sv_std.std
+# Loading work.phacc_tb
+# Loading work.phacc
